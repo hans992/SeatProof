@@ -1,0 +1,1107 @@
+{
+  "date": "2026-10-28",
+  "conclusion": "No commercially validated winner. SeatProof is the best bounded pilot/portfolio hypothesis, not a validated SaaS business.",
+  "weights": [
+    25,
+    15,
+    20,
+    15,
+    10,
+    10,
+    5
+  ],
+  "criteria": [
+    "Recurring pain",
+    "Spending",
+    "Differentiation",
+    "Reachability",
+    "Feasibility/cost",
+    "Revenue/expansion",
+    "Portfolio"
+  ],
+  "penaltyCriteria": [
+    "Unproven willingness to pay",
+    "Equivalent incumbents",
+    "Enterprise sales cycle",
+    "Legal exposure",
+    "Unavailable data",
+    "Onboarding",
+    "Integration cost",
+    "Inference cost",
+    "Speculative trend"
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "MSP billing and renewal losses",
+      "url": "https://www.reddit.com/r/msp/comments/1qu8w93/how_do_you_actually_track_billing_renewals/",
+      "published": "2026-02-02",
+      "type": "practitioner report",
+      "confidence": "Medium",
+      "summary": "A self-described 400-seat MSP reports spreadsheets and approximately €5,000 underbilling over several months. Identity, amount and representativeness are unverified.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S02",
+      "title": "Cross-vendor reconciliation",
+      "url": "https://www.reddit.com/r/SmallMSP/comments/1uf6mas/how_do_you_currently_reconcile_licensing_billing/",
+      "published": "2026-06-25",
+      "type": "practitioner report",
+      "confidence": "Medium",
+      "summary": "Reports inconsistent vendor formats and counts. A reply says Halo integration solved most of the work after setup; important disconfirming evidence.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S03",
+      "title": "Gradient reconciliation complaints",
+      "url": "https://www.reddit.com/r/msp/comments/1ix6f9q/",
+      "published": "2025-02-24",
+      "type": "practitioner report",
+      "confidence": "Medium",
+      "summary": "Reports broken integrations and missing mapping notifications. Historical report does not establish that defects remain today.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S04",
+      "title": "Gradient pricing",
+      "url": "https://www.meetgradient.com/pricing",
+      "published": "undated; accessed 2026-10-28",
+      "type": "vendor fact",
+      "confidence": "High for advertised pricing",
+      "summary": "Launch $299/month for 0–150 active-contract customers; Grow $699; Scale $999; Microsoft add-on $199/month. Category budget evidence, not actual transaction evidence.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S05",
+      "title": "CloudOlive integration listing",
+      "url": "https://www.datto.com/integrations/cloudolive/",
+      "published": "undated",
+      "type": "partner/vendor claim",
+      "confidence": "High for feature existence; medium for effectiveness",
+      "summary": "Explicit vendor-versus-PSA comparison, manual vendor reconciliation and discrepancies. Direct overlap with proposed product.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S06",
+      "title": "CloudOlive versus Gradient experiences",
+      "url": "https://www.reddit.com/r/msp/comments/1jhewcw/",
+      "published": "2025-03-22",
+      "type": "practitioner report",
+      "confidence": "Medium",
+      "summary": "Multiple commenters recommend CloudOlive and describe correcting billing numbers. Positive incumbent evidence; no verified price.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S07",
+      "title": "NCE billing tools discussion",
+      "url": "https://www.reddit.com/r/msp/comments/1dofrfg/",
+      "published": "2024-06-26 to 2024-07-11",
+      "type": "practitioner report",
+      "confidence": "Medium",
+      "summary": "One user likes CloudOlive; another dislikes remaining manual work and input files. Files are both capability and adoption friction.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S08",
+      "title": "Ninja billed-device complaint",
+      "url": "https://www.reddit.com/r/msp/comments/1whx87k/ninjas_billing_isnt_automated/",
+      "published": "2026-09-16",
+      "type": "practitioner report",
+      "confidence": "Medium",
+      "summary": "Reports billed devices exceeding deployed devices. Minimum commitments could explain differences: do not treat every discrepancy as a refund entitlement.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S09",
+      "title": "Supplier document mismatches",
+      "url": "https://www.reddit.com/r/dropshipping/comments/1uca90g/supplier_email_flows_order_confirmations_invoices/",
+      "published": "2026-06-22",
+      "type": "practitioner report",
+      "confidence": "Medium-low",
+      "summary": "Reports price, quantity and freight discrepancies in emailed confirmations/invoices. Same text in r/dropship is one source, not independent corroboration.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S10",
+      "title": "Purchaser confirmation chasing",
+      "url": "https://www.reddit.com/r/procurement/comments/1ksm3mi/",
+      "published": "2025-05-22",
+      "type": "practitioner report",
+      "confidence": "Medium",
+      "summary": "New purchaser asks how to obtain acknowledgement and delivery dates. Proves workflow uncertainty, not a software budget.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S11",
+      "title": "SAP PO acknowledgements",
+      "url": "https://help.sap.com/docs/SAP_BUSINESS_BYDESIGN/2754875d2d2a403f95e58a41a9c7d6de/2ce5ea97722d10148e089c58bc19c8af.html",
+      "published": "May 2026 version",
+      "type": "product documentation",
+      "confidence": "High",
+      "summary": "Documents manual and automatic acknowledgement receipt. Installed ERP is a strong substitute.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S12",
+      "title": "Conexiom product and reviews",
+      "url": "https://www.g2.com/products/conexiom/reviews",
+      "published": "2026-09-30 metadata",
+      "type": "review platform/vendor description",
+      "confidence": "Medium",
+      "summary": "66 reviews and a 4.6 rating were surfaced; acknowledges order-document automation. No specific verified unresolved complaint retained.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S13",
+      "title": "Conexiom pricing",
+      "url": "https://www.g2.com/products/conexiom/pricing",
+      "published": "2026-07-28 update",
+      "type": "vendor information on review platform",
+      "confidence": "Medium",
+      "summary": "Price negotiated; no numeric public rate. Per-document description, not a quote.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S14",
+      "title": "Freight invoice audit process",
+      "url": "https://www.gsa.gov/policy-regulations/policy/transportation-management-policy/transportation-invoice-audit",
+      "published": "undated",
+      "type": "official workflow",
+      "confidence": "High",
+      "summary": "Describes checking invoices against bills of lading, agreed rates and performed services. US federal context; not private SME buying evidence.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S15",
+      "title": "Transport invoice data standard",
+      "url": "https://ecta.com/wp-content/uploads/2022/12/ECTA-Best-Practice-Guideline-Invoice-Data-Standards-Bulk-Chemicals_2022-12-12-clean-final.pdf",
+      "published": "2022-12-12",
+      "type": "industry guidance",
+      "confidence": "High for workflow",
+      "summary": "Defines matching invoice to expected cost and supporting logistics events in European bulk chemicals.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S16",
+      "title": "Loop freight audit capabilities",
+      "url": "https://www.loop.com/capabilities/freight-and-parcel-audit",
+      "published": "undated",
+      "type": "vendor claim",
+      "confidence": "Medium",
+      "summary": "AI-supported document audit and contract/rate digitization are already marketed. No numeric price located.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S17",
+      "title": "Shipware commercial model",
+      "url": "https://shipware.com/blog/how-shipware-helps-you-succeed-in-a-dynamic-market/",
+      "published": "undated current page; originally older",
+      "type": "vendor claim",
+      "confidence": "Medium",
+      "summary": "Describes fees as a share of actual savings with no monthly retainers for audit services. Exact percentage not public in retrieved text.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S18",
+      "title": "Retail deductions impact",
+      "url": "https://www.spscommerce.com/community/articles/the-impact-of-retailer-deductions",
+      "published": "2025-11-03 update",
+      "type": "vendor claim",
+      "confidence": "Medium-low for demand",
+      "summary": "Explains dispute effort and revenue leakage. Vendor-authored; not independent proof of recovery or buyer willingness.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S19",
+      "title": "SupplyPike pricing and reviews",
+      "url": "https://www.softwareadvice.com/product/451076-SupplyPike/",
+      "published": "undated",
+      "type": "review platform",
+      "confidence": "Medium",
+      "summary": "Revenue Recovery listed with custom pricing and strong aggregate reviews. Procurement quote required; no specific verified complaint found.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S20",
+      "title": "Walgreens deduction types",
+      "url": "https://help.supplypike.com/en/articles/10492191-walgreens-deduction-types",
+      "published": "2025-09-11",
+      "type": "product documentation",
+      "confidence": "High",
+      "summary": "Retailer exports have specific identifiers and deduction codes. Evidence retrieval and portal access create integration cost.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S21",
+      "title": "Akeneo supplier normalization",
+      "url": "https://help.akeneo.com/supplier-data-manager-normalization-how-to-use-the-normalisation-module",
+      "published": "undated",
+      "type": "product documentation",
+      "confidence": "High",
+      "summary": "Existing type checks, required values, transformations, warnings and review queues undermine a generic catalog-normalization wedge.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S22",
+      "title": "Akeneo supplier data manager",
+      "url": "https://www.akeneo.com/supplier-data-manager/",
+      "published": "undated",
+      "type": "vendor claim",
+      "confidence": "Medium",
+      "summary": "Standalone or Product Cloud supplier collaboration, mapping and corrections. Public numeric price not retrieved.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S23",
+      "title": "Plytix pricing",
+      "url": "https://www.plytix.com/pricing/",
+      "published": "undated",
+      "type": "vendor page",
+      "confidence": "Low for numeric base price",
+      "summary": "Dynamic selector rendered zero base prices; those are not accepted as real quotes. Add-ons show 179/month without reliable currency context; exclude from quantitative comparison.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S24",
+      "title": "PIM review summaries",
+      "url": "https://www.g2.com/categories/product-information-management-pim",
+      "published": "October 2026",
+      "type": "review-platform synthesis",
+      "confidence": "Low-medium",
+      "summary": "Aggregated concerns about setup skills, asset handling and reporting. Not an individual verified interview or proof of missing supplier normalization.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S25",
+      "title": "Support engineering handoff",
+      "url": "https://www.reddit.com/r/EngineeringManagers/comments/1was5qz/anyone_else_watch_the_cseng_handoff_quietly_fall/",
+      "published": "2026-09-08",
+      "type": "practitioner report",
+      "confidence": "Medium-low",
+      "summary": "Reports engineer interruptions from missing reproduction details and poor closure communication. Small discussion; broad generalization unwarranted.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S26",
+      "title": "Pylon pricing",
+      "url": "https://www.usepylon.com/pricing",
+      "published": "undated",
+      "type": "vendor fact",
+      "confidence": "High for displayed price",
+      "summary": "Professional $89/seat, Advanced $139/seat, enterprise quote; agentic features involve credits. Existing integrations/API/automations. Billing cadence must be confirmed before purchase.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S27",
+      "title": "Plain comparison and price",
+      "url": "https://www.plain.com/compare/fin",
+      "published": "undated",
+      "type": "vendor claim",
+      "confidence": "Medium",
+      "summary": "Advertises starting $45/user/month and agent integration. Competitive comparison is vendor-authored; cadence and actual contract to confirm.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S28",
+      "title": "Agency informal changes",
+      "url": "https://www.reddit.com/r/PPC/comments/1pcbw65/how_do_you_handle_out_of_scope_requests_without/",
+      "published": "2025-12-02",
+      "type": "practitioner report",
+      "confidence": "Medium",
+      "summary": "Freelancer reports known out-of-scope Slack requests and interpersonal reluctance to charge. Identifying scope alone may not fix the problem.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S29",
+      "title": "Agency revision conflict",
+      "url": "https://www.reddit.com/r/agency/comments/1ffvotb/how_do_i_prevent_scope_creep_in_the_revision/",
+      "published": "2024-09-13",
+      "type": "practitioner report",
+      "confidence": "Medium",
+      "summary": "Video producer reports extra deliverables despite written scope. Existing contract evidence did not eliminate relationship friction.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S30",
+      "title": "Productive pricing",
+      "url": "https://productive.io/pricing/",
+      "published": "undated",
+      "type": "vendor page",
+      "confidence": "Medium",
+      "summary": "Budgeting/time and agency operations. Retrieved Essential selector shows $10/month but inconsistent total for ten users; exact checkout/cadence not verified. Do not calculate savings against it.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S31",
+      "title": "Accountant document chasing",
+      "url": "https://www.reddit.com/r/Accounting/comments/1s715ta/how_do_you_get_clients_to_actually_send_you_what/",
+      "published": "2026-03-29",
+      "type": "practitioner report",
+      "confidence": "Medium",
+      "summary": "Solo bookkeeper reports recurring chasing and poor portal adoption. Six hours reported for prior month, not measured by us.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S32",
+      "title": "Dental eligibility labor",
+      "url": "https://cdaonline.org/news/latest-news/study-reveals-losses-to-manual-and-insufficient-electronic-insurance-verification/",
+      "published": "2022-05-09",
+      "type": "vendor-authored association article",
+      "confidence": "Low-medium",
+      "summary": "References CAQH labor estimates; author sells automation. Historical, secondary and commercially interested; no clinical or current legal claims inferred.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S33",
+      "title": "Manual utility billback",
+      "url": "https://help.rentecdirect.com/article/747-manual-utility-billing",
+      "published": "undated",
+      "type": "product documentation",
+      "confidence": "High for workflow",
+      "summary": "Shows expense entry and tenant charges; existing import/export substitute. Allocation rules and tenancy law vary.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S34",
+      "title": "Staffing timesheet disputes",
+      "url": "https://help.recruitifi.com/en/articles/11095685-what-should-i-do-if-my-worker-s-hours-are-not-correct-non-wfm-integration",
+      "published": "2025-08-04",
+      "type": "product documentation",
+      "confidence": "High",
+      "summary": "Dispute prevents invoice until hours resolved. Existing approval workflow lowers differentiation.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S35",
+      "title": "Laboratory result controls",
+      "url": "https://www.jstreetlims.com/knowledge-base/understanding-analysis-specifications/",
+      "published": "undated",
+      "type": "product documentation",
+      "confidence": "High",
+      "summary": "LIMS already restricts values and warns on out-of-range measurements. Not evidence for a standalone extraction business.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S36",
+      "title": "Manufacturer quote inputs",
+      "url": "https://northernmfg.com/request-a-quote/",
+      "published": "undated",
+      "type": "business workflow",
+      "confidence": "Medium",
+      "summary": "RFQs accept drawings and project details with NDA handling. Demonstrates intake channel, not willingness to buy automation.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S37",
+      "title": "Missing supplier COAs",
+      "url": "https://www.reddit.com/r/supplychain/comments/1bdk5ye/",
+      "published": "2024-03-13",
+      "type": "practitioner report",
+      "confidence": "Medium",
+      "summary": "Comments discuss material held until certificate arrives. Compliance-adjacent and onboarding-heavy: excluded from build.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S38",
+      "title": "Restaurant cost changes",
+      "url": "https://www.reddit.com/r/restaurantowners/comments/1vrqkf5/cogs_up_17_since_april_raise_prices/",
+      "published": "2026-08-18",
+      "type": "practitioner report",
+      "confidence": "Medium",
+      "summary": "Owner reports margin pressure and delayed price updates. Does not prove software resolves pricing decisions.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S39",
+      "title": "Security questionnaire effort",
+      "url": "https://www.reddit.com/r/AskNetsec/comments/1ncna7o/how_much_of_your_time_goes_into_answering_vendor/",
+      "published": "2025-09-09",
+      "type": "practitioner report",
+      "confidence": "Medium",
+      "summary": "Commenter reports a questionnaire every week or two requiring hours. Highly served category, confidential evidence and review liability.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S40",
+      "title": "Grant tracking request",
+      "url": "https://www.reddit.com/r/nonprofit/comments/1qx3lpf/need_help_making_a_excel_spreadsheet_tracking/",
+      "published": "2026-02-06",
+      "type": "practitioner report",
+      "confidence": "Medium-low",
+      "summary": "Nonprofit worker requests grant amount, activities and restrictions tracking. Budget unknown.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S41",
+      "title": "Remittance matching",
+      "url": "https://www.reddit.com/r/Accounting/comments/1wxw5aa/ar_people_how_do_you_handle_customer_remittances/",
+      "published": "2026-10-05",
+      "type": "practitioner report",
+      "confidence": "Medium-low",
+      "summary": "Describes manual remittance-to-PO-to-invoice matching. Low response count and no paid commitment.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S42",
+      "title": "Vendor contract renewals",
+      "url": "https://www.reddit.com/r/ContractManagement/comments/1w35mam/how_do_you_track_contract_renewals_without/",
+      "published": "2026-08-31",
+      "type": "practitioner report",
+      "confidence": "Medium-low",
+      "summary": "Reports missed renewal among 70–80 contracts; respondents recommend basic spreadsheet process.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S43",
+      "title": "Maintenance planning spreadsheet",
+      "url": "https://www.reddit.com/r/manufacturing/comments/1cg7fg4/maintenance_planning_excel/",
+      "published": "2024-04-29",
+      "type": "practitioner report",
+      "confidence": "Medium",
+      "summary": "New planner reports reactive operations and seeks Excel template. CMMS implementation is a stronger substitute than another tracker.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S44",
+      "title": "Customs entry writer job discussion",
+      "url": "https://www.reddit.com/r/CustomsBroker/comments/1wamdxk/customs_entry_writer_interview_what_am_i_getting/",
+      "published": "2026-09-08",
+      "type": "job discussion",
+      "confidence": "Low-medium",
+      "summary": "Evidence of a paid administrative role, not specific measured automation need. Duplicated logistics post counted once.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S45",
+      "title": "OTA statement reconciliation",
+      "url": "https://www.reddit.com/r/hotels/comments/1uthhq8/independents_do_you_actually_reconcile_your_ota/",
+      "published": "2026-07-11",
+      "type": "community question; promotional risk",
+      "confidence": "Low",
+      "summary": "Describes commission/no-show/card issues but intent and experience not independently established.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S46",
+      "title": "Translation quality constraints",
+      "url": "https://www.reddit.com/r/TranslationStudies/comments/xc420r/",
+      "published": "2022-09-12",
+      "type": "practitioner report",
+      "confidence": "Medium but old",
+      "summary": "In-house translator describes inconsistent terminology and throughput pressure. Tools cannot necessarily change management priorities.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S47",
+      "title": "Shopify dispute evidence",
+      "url": "https://www.reddit.com/r/shopify/comments/1t5cads/customer_repeatedly_reopening_chargebacks_on_the/",
+      "published": "2026-05-06",
+      "type": "practitioner report",
+      "confidence": "Medium",
+      "summary": "Digital seller reports reopened disputes despite evidence. Outcome depends on issuer/platform, not just packet quality.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S48",
+      "title": "RAG regression open-source substitute",
+      "url": "https://github.com/camposvinicius/rag-evals",
+      "published": "undated repository",
+      "type": "software artifact",
+      "confidence": "Medium",
+      "summary": "Public CI evaluation harness demonstrates substitute availability, not usage or budget.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S49",
+      "title": "OpenAI structured outputs",
+      "url": "https://developers.openai.com/api/docs/guides/structured-outputs",
+      "published": "accessed 2026-10-28",
+      "type": "official API documentation",
+      "confidence": "High",
+      "summary": "Strict JSON schema and refusal handling inform optional integration. Schema compliance is not semantic correctness.",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "S50",
+      "title": "OpenAI model reference",
+      "url": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+      "published": "accessed 2026-10-28",
+      "type": "official API documentation",
+      "confidence": "High",
+      "summary": "Displayed text rates $0.40 input/$1.60 output per million tokens; supports Responses. Availability and quality untested here.",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "problems": [
+    {
+      "id": 1,
+      "problem": "MSP recurring seat underbilling",
+      "industry": "IT services",
+      "geography": "EU/UK/US",
+      "sources": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "decision": "Shortlist",
+      "assessment": "Owner/finance reconciles vendor exports and PSA agreements; recurring money impact, crowded incumbents."
+    },
+    {
+      "id": 2,
+      "problem": "Supplier confirmations disagree with POs",
+      "industry": "Industrial purchasing",
+      "geography": "Germany/EU/global",
+      "sources": [
+        "S09",
+        "S10",
+        "S11",
+        "S12"
+      ],
+      "decision": "Shortlist",
+      "assessment": "Buyer reads emailed acknowledgements and rekeys exceptions; ERP and document-automation substitutes."
+    },
+    {
+      "id": 3,
+      "problem": "Freight accessorial charges lack support",
+      "industry": "Logistics",
+      "geography": "US/EU",
+      "sources": [
+        "S14",
+        "S15",
+        "S16",
+        "S17"
+      ],
+      "decision": "Shortlist",
+      "assessment": "AP checks contract, invoice and delivery evidence; expensive rate integration and incumbent service alternatives."
+    },
+    {
+      "id": 4,
+      "problem": "Retail shortage deduction evidence",
+      "industry": "Consumer goods wholesale",
+      "geography": "US",
+      "sources": [
+        "S18",
+        "S19",
+        "S20"
+      ],
+      "decision": "Shortlist",
+      "assessment": "AR assembles shipment evidence before retailer dispute deadlines; portal access and strong incumbents."
+    },
+    {
+      "id": 5,
+      "problem": "Supplier catalog normalization",
+      "industry": "Ecommerce/distribution",
+      "geography": "EU/global",
+      "sources": [
+        "S21",
+        "S22",
+        "S23",
+        "S24"
+      ],
+      "decision": "Shortlist",
+      "assessment": "Product teams map supplier columns and correct attributes; Akeneo already offers this workflow."
+    },
+    {
+      "id": 6,
+      "problem": "Support-to-engineering reproduction handoff",
+      "industry": "B2B SaaS",
+      "geography": "Global English-speaking",
+      "sources": [
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "decision": "Shortlist",
+      "assessment": "Support lacks technical context; engineering gets interruptions. Privileged log/code access raises onboarding cost."
+    },
+    {
+      "id": 7,
+      "problem": "Unbilled informal agency scope changes",
+      "industry": "Professional services",
+      "geography": "UK/US/global",
+      "sources": [
+        "S28",
+        "S29",
+        "S30"
+      ],
+      "decision": "Shortlist",
+      "assessment": "PMs compare messages with scope; enforcement incentives may dominate software capability."
+    },
+    {
+      "id": 8,
+      "problem": "Bookkeeper missing monthly client records",
+      "industry": "Accounting",
+      "geography": "UK/US",
+      "sources": [
+        "S31"
+      ],
+      "decision": "Reject",
+      "assessment": "Portal avoidance suggests adoption/incentive issue; crowded reminder category."
+    },
+    {
+      "id": 9,
+      "problem": "Dental benefit verification calls",
+      "industry": "Healthcare administration",
+      "geography": "US",
+      "sources": [
+        "S32"
+      ],
+      "decision": "Reject",
+      "assessment": "Sensitive records and payer integration; historical vendor-supplied labor evidence insufficient."
+    },
+    {
+      "id": 10,
+      "problem": "Rental utility expense-to-tenant allocation",
+      "industry": "Property management",
+      "geography": "US",
+      "sources": [
+        "S33"
+      ],
+      "decision": "Reject",
+      "assessment": "Existing software handles billback; local rules and disputes add exposure."
+    },
+    {
+      "id": 11,
+      "problem": "Temporary staff disputed hours",
+      "industry": "Staffing",
+      "geography": "US/EU",
+      "sources": [
+        "S34"
+      ],
+      "decision": "Reject",
+      "assessment": "Existing approval controls already block invoicing; payroll consequences require domain depth."
+    },
+    {
+      "id": 12,
+      "problem": "Lab result transcription and limit checks",
+      "industry": "Industrial laboratories",
+      "geography": "US/global",
+      "sources": [
+        "S35"
+      ],
+      "decision": "Reject",
+      "assessment": "LIMS built-ins and validation burden outweigh general extractor proposition."
+    },
+    {
+      "id": 13,
+      "problem": "Manufacturing RFQ missing specifications",
+      "industry": "Industrial sales",
+      "geography": "US/EU",
+      "sources": [
+        "S36"
+      ],
+      "decision": "Hold",
+      "assessment": "Observable drawing intake but no independent measured pain or budget evidence."
+    },
+    {
+      "id": 14,
+      "problem": "Inbound material missing COA",
+      "industry": "Supply chain",
+      "geography": "US/EU",
+      "sources": [
+        "S37"
+      ],
+      "decision": "Reject",
+      "assessment": "Material hold pain exists; compliance-adjacent and too close to prior experiment."
+    },
+    {
+      "id": 15,
+      "problem": "Restaurant supplier price drift",
+      "industry": "Hospitality",
+      "geography": "US/EU",
+      "sources": [
+        "S38"
+      ],
+      "decision": "Hold",
+      "assessment": "Margin pain, but no validated switching trigger; commodity invoice tools and free alternatives."
+    },
+    {
+      "id": 16,
+      "problem": "Security questionnaire repetitive answers",
+      "industry": "Enterprise SaaS",
+      "geography": "US/EU",
+      "sources": [
+        "S39"
+      ],
+      "decision": "Reject",
+      "assessment": "Demand reports exist; deeply crowded and sensitive security commitments."
+    },
+    {
+      "id": 17,
+      "problem": "Grant restriction and expenditure tracking",
+      "industry": "Nonprofits",
+      "geography": "US",
+      "sources": [
+        "S40"
+      ],
+      "decision": "Hold",
+      "assessment": "Excel workaround; unknown budget and mature fund-accounting substitutes."
+    },
+    {
+      "id": 18,
+      "problem": "Remittance-to-invoice cash application",
+      "industry": "B2B finance",
+      "geography": "US/global",
+      "sources": [
+        "S41"
+      ],
+      "decision": "Hold",
+      "assessment": "Recurring manual join; ERP/accounting access and financial correctness costly."
+    },
+    {
+      "id": 19,
+      "problem": "Vendor cancellation window tracking",
+      "industry": "Small-business operations",
+      "geography": "Global",
+      "sources": [
+        "S42"
+      ],
+      "decision": "Reject",
+      "assessment": "Spreadsheet may suffice; reminders alone weak differentiation."
+    },
+    {
+      "id": 20,
+      "problem": "Reactive machine maintenance records",
+      "industry": "Manufacturing",
+      "geography": "US/global",
+      "sources": [
+        "S43"
+      ],
+      "decision": "Reject",
+      "assessment": "CMMS/process onboarding, not missing software category."
+    },
+    {
+      "id": 21,
+      "problem": "Customs commercial-invoice transcription",
+      "industry": "Trade administration",
+      "geography": "US/India/EU",
+      "sources": [
+        "S44"
+      ],
+      "decision": "Hold",
+      "assessment": "Paid role exists; classification liability, licensed brokers and integration constraints."
+    },
+    {
+      "id": 22,
+      "problem": "OTA commission/no-show reconciliation",
+      "industry": "Hotels",
+      "geography": "Global",
+      "sources": [
+        "S45"
+      ],
+      "decision": "Hold",
+      "assessment": "Thin unverified demand; portal data access and payment periods complex."
+    },
+    {
+      "id": 23,
+      "problem": "Translation terminology consistency",
+      "industry": "Language services",
+      "geography": "Germany/global",
+      "sources": [
+        "S46"
+      ],
+      "decision": "Hold",
+      "assessment": "Real historic quality complaint; management incentives and CAT substitutes."
+    },
+    {
+      "id": 24,
+      "problem": "Digital-goods card-dispute evidence",
+      "industry": "Ecommerce",
+      "geography": "UK/US",
+      "sources": [
+        "S47"
+      ],
+      "decision": "Reject",
+      "assessment": "Bank outcomes outside tool control; established platform workflows."
+    },
+    {
+      "id": 25,
+      "problem": "RAG quality regressions during releases",
+      "industry": "Developer tools",
+      "geography": "Global",
+      "sources": [
+        "S48"
+      ],
+      "decision": "Reject",
+      "assessment": "Technically valuable; free harnesses and platforms commoditize generic evaluation."
+    },
+    {
+      "id": 26,
+      "problem": "Supplier acknowledgement chasing and ETA",
+      "industry": "Procurement",
+      "geography": "EU/global",
+      "sources": [
+        "S10",
+        "S11"
+      ],
+      "decision": "Hold",
+      "assessment": "Distinct from checking contents; supplier responsiveness may not improve with another reminder."
+    },
+    {
+      "id": 27,
+      "problem": "MSP supplier overbilling versus deployment",
+      "industry": "IT services",
+      "geography": "EU/US",
+      "sources": [
+        "S08",
+        "S02"
+      ],
+      "decision": "Hold",
+      "assessment": "Distinct from client underbilling; contracts/minimums can legitimately exceed deployed counts."
+    },
+    {
+      "id": 28,
+      "problem": "MSP renewal commitment and invoice-period alignment",
+      "industry": "IT services",
+      "geography": "EU/US",
+      "sources": [
+        "S01",
+        "S07"
+      ],
+      "decision": "Hold",
+      "assessment": "Annual/monthly combinations create ambiguity; avoid treating different periods as comparable."
+    },
+    {
+      "id": 29,
+      "problem": "Delivery evidence blocking transport invoice",
+      "industry": "Freight operations",
+      "geography": "EU",
+      "sources": [
+        "S15"
+      ],
+      "decision": "Hold",
+      "assessment": "Industry process needs POD; no independently verified niche willingness to pay found."
+    },
+    {
+      "id": 30,
+      "problem": "Retail price/allowance deduction classification",
+      "industry": "Wholesale finance",
+      "geography": "US",
+      "sources": [
+        "S18",
+        "S20"
+      ],
+      "decision": "Reject",
+      "assessment": "Different evidence from shortage claims; already supported by deductions platforms."
+    },
+    {
+      "id": 31,
+      "problem": "Supplier product missing attributes before publication",
+      "industry": "Product operations",
+      "geography": "EU/global",
+      "sources": [
+        "S21",
+        "S22"
+      ],
+      "decision": "Reject",
+      "assessment": "Separate completeness gate from normalization; existing required-field controls sufficient."
+    },
+    {
+      "id": 32,
+      "problem": "Closing customer loop after engineering fix",
+      "industry": "B2B SaaS support",
+      "geography": "Global",
+      "sources": [
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "decision": "Hold",
+      "assessment": "Distinct communication failure; support suites own the customer channel and distribution."
+    }
+  ],
+  "candidates": [
+    {
+      "name": "MSP export audit",
+      "scores": [
+        4,
+        4,
+        2,
+        4,
+        4,
+        3,
+        4.5
+      ],
+      "penalties": [
+        8,
+        10,
+        0,
+        1,
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      "position": "Best pilot hypothesis; direct equivalent competitors. Small local package is unvalidated.",
+      "gross": 70.5,
+      "penalty": 22,
+      "net": 48.5
+    },
+    {
+      "name": "PO confirmation checking",
+      "scores": [
+        3.5,
+        3,
+        2,
+        2,
+        3,
+        4,
+        5
+      ],
+      "penalties": [
+        8,
+        9,
+        2,
+        1,
+        1,
+        3,
+        3,
+        0,
+        0
+      ],
+      "position": "Second; unclear small-buyer budget and ERP trust barrier.",
+      "gross": 59.5,
+      "penalty": 27,
+      "net": 32.5
+    },
+    {
+      "name": "Freight invoice evidence",
+      "scores": [
+        3.5,
+        4,
+        1.5,
+        2,
+        2.5,
+        4,
+        4.5
+      ],
+      "penalties": [
+        8,
+        9,
+        2,
+        2,
+        1,
+        3,
+        3,
+        1,
+        0
+      ],
+      "position": "Third; recovery economics compete with shared-savings services.",
+      "gross": 59,
+      "penalty": 29,
+      "net": 30
+    },
+    {
+      "name": "Supplier catalog normalization",
+      "scores": [
+        2.5,
+        4,
+        1.5,
+        2.5,
+        3,
+        3.5,
+        4
+      ],
+      "penalties": [
+        8,
+        10,
+        2,
+        0,
+        1,
+        3,
+        2,
+        0,
+        0
+      ],
+      "position": "Reject: documented equivalent Akeneo workflow.",
+      "gross": 55,
+      "penalty": 26,
+      "net": 29
+    },
+    {
+      "name": "Agency scope leakage",
+      "scores": [
+        3,
+        2,
+        1,
+        3.5,
+        4,
+        2,
+        3.5
+      ],
+      "penalties": [
+        8,
+        9,
+        0,
+        2,
+        0,
+        2,
+        2,
+        0,
+        2
+      ],
+      "position": "Reject: willingness to enforce scope, not detection, may be binding.",
+      "gross": 51,
+      "penalty": 25,
+      "net": 26
+    },
+    {
+      "name": "Technical support handoff",
+      "scores": [
+        3,
+        4,
+        1,
+        3,
+        3,
+        4,
+        5
+      ],
+      "penalties": [
+        8,
+        12,
+        3,
+        1,
+        1,
+        4,
+        4,
+        1,
+        0
+      ],
+      "position": "Reject: existing support platforms and privileged integrations.",
+      "gross": 59,
+      "penalty": 34,
+      "net": 25
+    },
+    {
+      "name": "Retail deductions",
+      "scores": [
+        3,
+        4,
+        1.5,
+        1.5,
+        2,
+        4,
+        4
+      ],
+      "penalties": [
+        8,
+        10,
+        3,
+        2,
+        2,
+        3,
+        3,
+        0,
+        0
+      ],
+      "position": "Reject: integrations and incumbent retailer knowledge dominate.",
+      "gross": 53.5,
+      "penalty": 31,
+      "net": 22.5
+    }
+  ]
+}

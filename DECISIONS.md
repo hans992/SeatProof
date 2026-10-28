@@ -19,3 +19,9 @@ CloudOlive already supports vendor files and comparison; Gradient supports CSV u
 Broad multi-query search results were heavily concentrated on a subset of queries. Follow-up single-topic searches broadened coverage. Promotional posts, cross-posts, and vendor case studies are labelled rather than counted as independent buyer validation. Current vendor pages take priority over dated pricing aggregators. CloudOlive's production pricing page returned no extractable text; its staging page is not treated as a verified current quote.
 
 The Canvas skill describes a Cursor-specific managed path with no workspace mapping for this Codex project. The requested Markdown reports and an interactive local research page are the portable deliverables; no unrelated Cursor project is modified. The Sites local-only workflow applies. Stripe Directory is unavailable (CLI absent, documentation endpoint unreadable via web); no external provider is provisioned or purchased.
+
+## Verification decisions
+
+Initial lexical evaluation made three false proposals. Added explicit plan/service conflicts, retained the initial report and disclosed reuse of the diagnostic set. One false proposal remains; human approval remains mandatory. No unsupported accuracy or savings claim is used in the business case.
+
+Browser testing revealed that form named-property access was unsafe for a field called `id`; dispatch now reads the HTML attribute. Save/reload behavior was verified in the browser after the fix. Canonical customer IDs and SKUs use strict identity, with tuple serialization to avoid delimiter collisions. Quantity/price bounds keep aggregate integer-cent totals inside safe integer limits.

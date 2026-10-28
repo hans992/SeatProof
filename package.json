@@ -1,0 +1,15 @@
+{
+  "name": "seatproof",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local evidence-backed MSP billing export review. Unvalidated pilot prototype.",
+  "engines": {"node": ">=24.0.0 <25"},
+  "scripts": {
+    "start": "node server.mjs",
+    "demo": "node scripts/demo.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "evaluate": "node scripts/evaluate.mjs",
+    "demo:packet": "node scripts/demo-packet.mjs"
+  }
+}

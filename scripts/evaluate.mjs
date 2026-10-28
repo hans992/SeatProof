@@ -1,0 +1,14 @@
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {performance} from 'node:perf_hooks';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+import {offlineSuggest} from '../lib/matching.mjs';
+import {normalize,createRun,reconcile} from '../lib/core.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),dataset=JSON.parse(readFileSync(path.join(root,'evals/aliases.json'),'utf8'));
+const results=dataset.map(c=>{const run={vendor:[{row_id:'V',customer_id:'C',product:c.source,sku:''}],psa:c.candidates.map((p,i)=>({row_id:'P'+i,customer_id:'C',product:p,sku:''})),mappings:[]};const start=performance.now(),output=offlineSuggest(run,'V'),elapsed=performance.now()-start,predicted=output.psa_id===null?null:Number(output.psa_id.slice(1));const exact=c.candidates.map((p,i)=>({p,i})).filter(x=>normalize(x.p)===normalize(c.source));return {...c,predicted,baseline:exact.length===1?exact[0].i:null,correct:predicted===c.expected,latency_ms:+elapsed.toFixed(4)};});
+const metrics=field=>{const proposals=results.filter(r=>r[field]!==null),truth=results.filter(r=>r.expected!==null),correct=proposals.filter(r=>r[field]===r.expected),negatives=results.filter(r=>r.expected===null);return {accuracy:results.filter(r=>r[field]===r.expected).length/results.length,proposal_precision:proposals.length?correct.length/proposals.length:null,positive_recall:correct.length/truth.length,proposal_coverage:proposals.length/results.length,abstention_accuracy:negatives.filter(r=>r[field]===null).length/negatives.length,incorrect_proposals:proposals.filter(r=>r[field]!==r.expected).map(r=>r.id)};};
+const vendor=readFileSync(path.join(root,'samples/vendor.csv'),'utf8'),psa=readFileSync(path.join(root,'samples/psa.csv'),'utf8');
+const times=[];for(let i=0;i<100;i++){const start=performance.now();reconcile(createRun(vendor,psa));times.push(performance.now()-start);}times.sort((a,b)=>a-b);
+const report={generated_at:new Date().toISOString(),mode:'offline-lexical',live_inference_tested:false,dataset_size:results.length,limitations:'Author-created synthetic fixture set, not independently labelled or customer data. No human baseline or productivity claim. Timing depends on local machine and includes small fixture only. No model accuracy claimed.',offline:metrics('predicted'),exact_name_baseline:metrics('baseline'),benchmark:{iterations:100,rows_per_iteration:16,median_ms:+times[50].toFixed(4),p95_ms:+times[94].toFixed(4)},results};
+mkdirSync(path.join(root,'artifacts'),{recursive:true});writeFileSync(path.join(root,'artifacts/evaluation.json'),JSON.stringify(report,null,2));
+console.log(JSON.stringify({...report,results:undefined},null,2));

@@ -1,0 +1,12 @@
+services:
+  seatproof:
+    build: .
+    ports:
+      - "127.0.0.1:4317:4317"
+    volumes:
+      - seatproof-data:/app/data
+    environment:
+      SEATPROOF_AI_ENABLED: "0"
+    restart: unless-stopped
+volumes:
+  seatproof-data:

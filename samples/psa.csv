@@ -1,0 +1,9 @@
+row_id,customer_id,customer,product,sku,quantity,unit_price,currency,period_start,period_end,unit,basis
+P001,ATLAS,Atlas Studio,Business Premium,M365-BP,25,24.00,EUR,2026-10-01,2026-10-31,seat,monthly
+P002,BIRCH,Birch Logistics,Managed endpoint protection,EDR,45,4.50,EUR,2026-10-01,2026-10-31,device,monthly
+P003,CEDAR,Cedar Works,Office 365 E3,,12,32.00,EUR,2026-10-01,2026-10-31,seat,monthly
+P004,ATLAS,Atlas Studio,Server Backup,BACKUP-S,8,12.00,EUR,2026-10-01,2026-10-31,server,monthly
+P005,DELTA,Delta Design,Business Premium,M365-BP,10,240.00,EUR,2026-01-01,2026-12-31,seat,annual
+P006,FINCH,Finch Trading,Managed endpoint protection,EDR,20,4.50,EUR,2026-10-01,2026-10-31,device,monthly
+P008,WEST,West Craft,Managed services bundle,BUNDLE,1,250.00,EUR,2026-10-01,2026-10-31,bundle,bundle
+P009,OLD,Old Mill,Legacy backup,BACKUP-L,7,10.00,EUR,2026-10-01,2026-10-31,server,monthly

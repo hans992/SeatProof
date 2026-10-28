@@ -1,5 +1,7 @@
 # Implementation plan
 
+> Historical record — superseded on 28 October 2026 by [COMMERCIAL_VERDICT.md](COMMERCIAL_VERDICT.md). Commercial development is stopped; no compelling advantage over the four compared products was established. Earlier pilot, pricing, outreach and feature proposals below are inactive hypotheses, not the current recommendation.
+
 1. Finish 32-problem evidence catalogue, seven-candidate competition analysis, penalized scorecard and top-three hostile reviews before implementation.
 2. Build one workflow: authenticate → import two CSV exports → inspect immutable rows → propose/approve alias matches → reconcile comparable lines → review each exception → export evidence packet.
 3. Implement optional real model adapter with bounded candidate retrieval, strict JSON validation, deterministic guardrails, timeout, refusal/error handling, input hash and usage telemetry. Default to a labelled offline adapter. No credentials are sought from unrelated configuration.

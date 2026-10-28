@@ -1,5 +1,7 @@
 # Go-to-market and first 20 target criteria
 
+> Historical record — superseded on 28 October 2026 by [COMMERCIAL_VERDICT.md](COMMERCIAL_VERDICT.md). Commercial development is stopped; no compelling advantage over the four compared products was established. Earlier pilot, pricing, outreach and feature proposals below are inactive hypotheses, not the current recommendation.
+
 ## Initial offer
 
 Sell a scoped diagnostic before a subscription: one month, two exports, reviewed quantity-exception packet, €249 proposed fixed fee. Explain what is excluded and show the known false-positive case. Ask for a second monthly run only after the buyer experiences useful findings with acceptable setup effort. A €149/month recurring pilot is an unvalidated proposal, not a market price.

@@ -1,5 +1,7 @@
 # Technical case study and career materials
 
+> Historical record — superseded on 28 October 2026 by [COMMERCIAL_VERDICT.md](COMMERCIAL_VERDICT.md). Commercial development is stopped; no compelling advantage over the four compared products was established. Earlier pilot, pricing, outreach and feature proposals below are inactive hypotheses, not the current recommendation.
+
 ## Case study
 
 **Problem:** MSP finance operators report recurring difficulty aligning vendor quantities with customer charges. The same category has mature competitors. This project deliberately separates evidence of a painful workflow from evidence that a new software business deserves to exist.

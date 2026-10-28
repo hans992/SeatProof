@@ -1,5 +1,7 @@
 # Competitive intelligence — 28 October 2026
 
+> Historical record — superseded on 28 October 2026 by [COMMERCIAL_VERDICT.md](COMMERCIAL_VERDICT.md). Commercial development is stopped; no compelling advantage over the four compared products was established. Earlier pilot, pricing, outreach and feature proposals below are inactive hypotheses, not the current recommendation.
+
 Source IDs link to the original URLs in EVIDENCE.md. Prices describe the retrieved public page, not a binding quotation. USD and EUR are not treated interchangeably. No competitor is asserted to lack a feature merely because it was not found.
 
 ## 1. MSP export reconciliation — selected hypothesis

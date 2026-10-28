@@ -1,5 +1,7 @@
 # Business case: SeatProof
 
+> Historical record — superseded on 28 October 2026 by [COMMERCIAL_VERDICT.md](COMMERCIAL_VERDICT.md). Commercial development is stopped; no compelling advantage over the four compared products was established. Earlier pilot, pricing, outreach and feature proposals below are inactive hypotheses, not the current recommendation.
+
 ## Status
 
 An unvalidated product hypothesis with a working local prototype. No customers, interviews, paid pilots, revenue or measured human productivity gains. The research establishes a real category with powerful incumbents. It does not establish a commercially defensible entrant.

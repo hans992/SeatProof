@@ -1,6 +1,10 @@
 # Decision log — 28 October 2026
 
-## Commercial gate
+## Final decision — stop commercial development
+
+The direct CloudOlive, Gradient Reconcile, BillRecon and BillingReconcile comparison established no compelling customer advantage. Preserve the working code and original history for engineering and portfolio use. No evidence-backed commercial pivot or service-led repositioning was identified. [COMMERCIAL_VERDICT.md](COMMERCIAL_VERDICT.md) supersedes the pilot recommendation below. The user subsequently authorized publication to hans992/SeatProof with this negative conclusion; application code is unchanged.
+
+## Original commercial gate — historical
 No candidate has convincing evidence of willingness to pay for a *new differentiated product*. Public practitioner reports demonstrate problems, and paid incumbents demonstrate category spending; neither validates this business. No interviews, signed pilots, or revenue exist.
 
 Proceed with **SeatProof**, a clearly labelled portfolio and paid-pilot hypothesis: a local-first, export-based pre-bill reconciliation workbench for small managed IT service providers (MSPs). The end-to-end job is importing supplier and PSA CSVs, resolving product aliases with evidence, checking comparable quantities, reviewing exceptions, and exporting an audit packet.

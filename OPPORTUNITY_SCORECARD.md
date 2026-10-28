@@ -1,5 +1,7 @@
 # Adversarial scorecard
 
+> Historical record — superseded on 28 October 2026 by [COMMERCIAL_VERDICT.md](COMMERCIAL_VERDICT.md). Commercial development is stopped; no compelling advantage over the four compared products was established. Earlier pilot, pricing, outreach and feature proposals below are inactive hypotheses, not the current recommendation.
+
 Dated 2026-10-28. Scores are analyst judgments on 0–5, not measured market statistics. Weighted total = sum(score / 5 × weight). Penalties are subtracted as explicit points; overlapping risks can compound. No candidate passes a commercial validation gate.
 
 Weights: Recurring pain 25%; Spending 15%; Differentiation 20%; Reachability 15%; Feasibility/cost 10%; Revenue/expansion 10%; Portfolio 5%.

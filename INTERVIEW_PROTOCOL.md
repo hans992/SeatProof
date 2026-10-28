@@ -1,5 +1,7 @@
 # Customer discovery protocol
 
+> Historical record — superseded on 28 October 2026 by [COMMERCIAL_VERDICT.md](COMMERCIAL_VERDICT.md). Commercial development is stopped; no compelling advantage over the four compared products was established. Earlier pilot, pricing, outreach and feature proposals below are inactive hypotheses, not the current recommendation.
+
 Goal: disprove the proposed workflow and price as quickly as possible. The interviewer must not treat politeness, interest in AI, a demo compliment or a request for free software as purchase evidence.
 
 ## Thirty-minute conversation

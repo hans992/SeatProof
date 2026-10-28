@@ -1,5 +1,7 @@
 # Opportunity discovery — 2026-10-28
 
+> Historical record — superseded on 28 October 2026 by [COMMERCIAL_VERDICT.md](COMMERCIAL_VERDICT.md). Commercial development is stopped; no compelling advantage over the four compared products was established. Earlier pilot, pricing, outreach and feature proposals below are inactive hypotheses, not the current recommendation.
+
 No commercially validated winner. SeatProof is the best bounded pilot/portfolio hypothesis, not a validated SaaS business.
 
 ## Method and limits

@@ -1,6 +1,14 @@
 # SeatProof
 
-**Evidence-backed billing export review for small MSPs. A functional local MVP and an unvalidated commercial hypothesis.**
+**Preserved engineering prototype. Commercial development stopped: no compelling advantage over existing MSP reconciliation products was established.**
+
+## Final commercial conclusion — 28 October 2026
+
+**Recommendation: stop SeatProof as a standalone MSP reconciliation business.** Direct comparison with CloudOlive, Gradient Reconcile, BillRecon and BillingReconcile did not establish a customer problem that SeatProof solves adequately while those alternatives leave it inadequately solved. CSV ingestion, discrepancy detection, reviewer control and evidence-backed review already overlap competing products.
+
+Local offline operation and a portable source-and-decision packet are implemented differences, but no observed customer workflow, paid commitment or comparative outcome establishes their commercial value. No evidence-backed commercial pivot or service-led repositioning was identified. The working implementation is preserved for engineering study and portfolio use; this is not a production-ready product or an active sales offer.
+
+Read the [final competitive assessment and sources](COMMERCIAL_VERDICT.md). It supersedes the earlier pilot recommendation, pricing assumptions and go-to-market plans. Historical research and the application's `/research` page retain the original discovery record; they are not the current commercial recommendation. No additional product features were implemented for this conclusion.
 
 Import supplier and PSA CSV exports → inspect every source row → review product-alias suggestions → approve mappings → reconcile comparable quantities → record decisions → export an evidence packet. Nothing updates invoices, sends messages or collects payments.
 
@@ -8,7 +16,7 @@ Import supplier and PSA CSV exports → inspect every source row → review prod
 
 ## What the research actually supports
 
-The discovery screened **32 problems**, retained **50 cited source records**, compared **seven opportunities**, and challenged three finalists. MSP billing has recurring practitioner pain and paid incumbents. CloudOlive, Gradient and Halo already address this category. No customer interviews, sales, paid pilots or differentiated willingness-to-pay evidence were obtained. SeatProof is selected for a bounded pilot experiment and engineering value, **not presented as a validated software business**.
+The original discovery screened **32 problems**, retained **50 cited source records**, compared **seven opportunities**, and challenged three finalists. MSP billing has recurring practitioner pain and paid incumbents. No customer interviews, sales, paid pilots or differentiated willingness-to-pay evidence were obtained. The subsequent four-product comparison rejected the case for further commercial development. Category demand did not establish demand for SeatProof.
 
 Start with [RESEARCH.md](RESEARCH.md), [EVIDENCE.md](EVIDENCE.md), [COMPETITIVE_ANALYSIS.md](COMPETITIVE_ANALYSIS.md), [OPPORTUNITY_SCORECARD.md](OPPORTUNITY_SCORECARD.md), and [BUSINESS_CASE.md](BUSINESS_CASE.md). The local `/research` page is a searchable visual dossier with sources and scoring.
 
@@ -82,4 +90,4 @@ Node 24 HTTP server + native SQLite + browser ES modules. Server-side sessions a
 
 [Go-to-market and 20 target criteria](GO_TO_MARKET.md) · [Interview protocol](INTERVIEW_PROTOCOL.md) · [Case study, AI summary, CV bullets and LinkedIn draft](PORTFOLIO.md) · [Prioritized next steps](NEXT_STEPS.md) · [Decisions](DECISIONS.md) · [Progress](PROGRESS.md).
 
-No external outreach, purchases, deployments or public publication occurred. The next commercial step is **paid workflow validation**, not more features.
+The user authorized preservation in [hans992/SeatProof](https://github.com/hans992/SeatProof) together with the negative conclusion. No prospect outreach, purchases, payments or hosted product deployment occurred. See [preservation status and conditions for reconsideration](NEXT_STEPS.md); there is no active feature or sales roadmap.

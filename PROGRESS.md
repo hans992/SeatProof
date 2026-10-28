@@ -1,5 +1,7 @@
 # Progress
 
+Final preservation update, 28 October 2026: [hans992/SeatProof](https://github.com/hans992/SeatProof) is published on `main` with the complete original Git history and [negative commercial conclusion](COMMERCIAL_VERDICT.md). Remote commit and tree were verified against the local repository. [GitHub Actions](https://github.com/hans992/SeatProof/actions/runs/40741774183) passed tests, synthetic evaluation and demo-packet generation on Ubuntu/Node 24. Application code and build configuration are unchanged. Earlier progress entries below describe the historical local-only build stage.
+
 28 October 2026: Local research/build cycle completed. Screened 32 problems, curated 50 source records, examined seven opportunities and challenged three finalists. Selected an explicitly unvalidated MSP billing-audit hypothesis after finding direct incumbent overlap.
 
 Implemented SeatProof's complete local CSV-to-reviewed-packet workflow, authentication/roles, persistence, evidence hashes, optional structured-output model adapter, offline baseline and evaluation traces. All 24 automated tests pass. Browser checks verified import, suggestion/approval, decision save/reload, responsive layout and packet download. Browser-only form bug repaired. Initial and revised evaluation results retained, including a remaining false proposal.

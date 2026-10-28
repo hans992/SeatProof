@@ -84,7 +84,7 @@ Use the headers in [samples/vendor.csv](samples/vendor.csv) and [samples/psa.csv
 
 Node 24 HTTP server + native SQLite + browser ES modules. Server-side sessions and tenant-scoped queries; scrypt password hashes; role authorization; CSRF/origin checks; bounded inputs; CSP and escaped rendering. Details and limitations: [ARCHITECTURE.md](ARCHITECTURE.md), [SECURITY.md](SECURITY.md), [PRODUCT_SPEC.md](PRODUCT_SPEC.md).
 
-`docker compose up --build` describes a single-node, loopback-only container deployment with persistent SQLite storage and a non-root process. **Docker execution and GitHub Actions were not verified in this environment.** GitHub-ready workflow is included; no repository was pushed. Public SaaS needs further identity, TLS, isolation, backup, deletion, monitoring and security work. This is not production-ready.
+`docker compose up --build` describes a single-node, loopback-only container deployment with persistent SQLite storage and a non-root process. **Docker execution remains unverified.** The repository is published; [GitHub Actions passed on Ubuntu with Node 24](https://github.com/hans992/SeatProof/actions/runs/40741774183), running the tests, synthetic evaluation and demo-packet generation against preserved commit `571f44e`. Public SaaS needs further identity, TLS, isolation, backup, deletion, monitoring and security work. This is not production-ready.
 
 ## Business and portfolio materials
 

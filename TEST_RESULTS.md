@@ -1,5 +1,9 @@
 # Verification results — 28 October 2026
 
+## GitHub preservation verification
+
+After the user authorized repository publication, [GitHub Actions run 40741774183](https://github.com/hans992/SeatProof/actions/runs/40741774183) completed successfully for commit `571f44e259214bf551d2ae96ded1e623eb7610cf` on Ubuntu with Node 24. The `npm test`, `npm run evaluate` and `npm run demo:packet` steps all passed. Application code, tests, fixtures, artifacts and build configuration match the original preserved implementation at `0ee96f0`; publication changes were documentation-only. This supersedes the original report's unverified Linux/GitHub Actions status below. Docker execution, real customer outcomes and live model evaluation remain unverified.
+
 ## Automated checks
 
 Command: `npm test` using Node v24.18.0 on Windows. **24 tests passed; 0 failed** in the final recorded run (866.4954 ms runner duration). This is a suite timing, not product latency or human productivity.
